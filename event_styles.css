@@ -1,0 +1,29 @@
+html{
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
+
+body{
+    border: 1px solid black;
+    padding: 0.5rem;
+
+}
+urbOrange{
+    color:E84A27;
+
+}
+
+urbBlue{
+    color:13294b;
+}
+
+eventTable{
+    margin: 0.5em;
+    width: 300px; /* ?? */
+    text-decoration: solid;
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
