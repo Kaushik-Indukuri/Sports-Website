@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sport Website</title>
+    <title>UIUC Sportsground</title>
     <script src="https://kit.fontawesome.com/70c1584286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="login_styles.css">
 </head>
 <body>
     <section class="login">
         <div class="wrapper">
             <div class="l_container">
-                <i class="fa-solid fa-calendar-check"></i>
-                <h1 class="title">Sports Website</h1>
-                <p>The best way to find other students to play sports with at UIUC</p>
+                <div class="left_wrapper">
+                    <i class="fa fa-handshake-simple"></i>
+                    <h1>UIUC Sportsground</h1>
+                    <p>The best way to connect with other students and plan out when & where to play sports at UIUC</p>
+                </div>
             </div>
             <div class="r_container">
-                <h1 class="login_header">Login</h1>
-                <form action="" method="post">
-                    <h2>Username</h2>
-                    <div class="txt_field">
-                        <label>Username</label>
-                        <input type="text" class="form_input" required>
-                    </div>
-                    <h2>Password</h2>
-                    <div class="txt_field">
-                        <label>Password</label>
-                        <input type="password" class="form_input" required>
-                    </div>
-                    <input type="submit" class="btn" value="Login"> 
-                </form>
+                <div class="right_wrapper">
+                    <h1>Login</h1>
+                    <form action="" method="post">
+                        <div class="txt_field">
+                            <label>Username</label>
+                            <input type="text" class="form_input" required>
+                        </div>
+                        <div class="txt_field">
+                            <label>Password</label>
+                            <input type="password" class="form_input" required>
+                            <label class="forgot">Forgot password?</label>
+                        </div>
+                        <input type="submit" class="btn" value="LOGIN">
+                        <p>OR</p>
+                        <input type="submit" id="register" class="btn" value="REGISTER">
+                    </form>
+                </div>
             </div>
         </div>
     </section>
