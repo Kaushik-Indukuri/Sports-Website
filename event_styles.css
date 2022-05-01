@@ -1,0 +1,36 @@
+html{
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+
+
+body{
+    border: 1px solid black;
+    padding: 0.5rem;
+
+}
+
+/* .eventTable{
+    margin: 0.5em;
+    width: 30px; ??
+    text-decoration: solid;
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+} */
+
+td{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    background-color: rgb(19, 41, 75);
+    color: white;
+}
+
+th{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    background-color: rgb(232 ,74, 39);
+}

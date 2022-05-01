@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.l_container{
+    background-color: #ff7979;
+    height: 100vh;
+}
